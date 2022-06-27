@@ -1,0 +1,6 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      uri: mongodb://docker:mongopw@localhost:49154/agency-manager?authSource=admin
