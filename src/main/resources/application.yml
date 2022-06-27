@@ -3,4 +3,5 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://docker:mongopw@localhost:49154/agency-manager?authSource=admin
+      host: mongodb
+      port: 27017
